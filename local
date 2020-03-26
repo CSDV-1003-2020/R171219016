@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main()  
+{
+    int a; //local var
+	printf("enter a number:\n");
+	scanf("%d",&a);
+	printf("value is in main :%d\n",a);
+	b();
+}
+
+void b() 
+{
+	int a; 
+    printf("enter a number in b:\n");
+	scanf("%d",&a);
+	printf("val+ue is in b :%d\n",a);
+}
