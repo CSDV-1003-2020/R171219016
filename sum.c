@@ -10,5 +10,6 @@ int main()
 	}
 
 	printf("sum is: %d\n",b);
+	return 0;
 }
 
